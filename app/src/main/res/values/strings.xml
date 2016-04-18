@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GridLayoutTest</string>
+    <string name="txtDivide">/</string>
+    <string name="txtOne">1</string>
+    <string name="txtTwo">2</string>
+    <string name="txtThree">3</string>
+    <string name="txtMultiply">x</string>
+    <string name="txtFour">4</string>
+    <string name="txtFive">5</string>
+    <string name="txtSix">6</string>
+    <string name="txtMinus">-</string>
+    <string name="txtSeven">7</string>
+    <string name="txtEight">8</string>
+    <string name="txtNine">9</string>
+    <string name="txtPlus">+</string>
+    <string name="txtZero">0</string>
+    <string name="txtErase">C</string>
+    <string name="txtEquals">=</string>
+</resources>

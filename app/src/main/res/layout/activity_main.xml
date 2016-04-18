@@ -1,0 +1,102 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="4"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/txtValue"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnDivide"
+        android:layout_column="3"
+        android:onClick="buttonDivideClicked"
+        android:text="@string/txtDivide" />
+
+    <Button
+        android:id="@+id/btnOne"
+        android:onClick="buttonOneClicked"
+        android:text="@string/txtOne" />
+
+    <Button
+        android:id="@+id/btnTwo"
+        android:onClick="buttonTwoClicked"
+        android:text="@string/txtTwo" />
+
+    <Button
+        android:id="@+id/btnThree"
+        android:onClick="buttonThreeClicked"
+        android:text="@string/txtThree" />
+
+    <Button
+        android:id="@+id/btnMultiply"
+        android:onClick="buttonMultiplyClicked"
+        android:text="@string/txtMultiply" />
+
+    <Button
+        android:id="@+id/btnFour"
+        android:onClick="buttonFourClicked"
+        android:text="@string/txtFour" />
+
+    <Button
+        android:id="@+id/btnFive"
+        android:onClick="buttonFiveClicked"
+        android:text="@string/txtFive" />
+
+    <Button
+        android:id="@+id/btnSix"
+        android:onClick="buttonSixClicked"
+        android:text="@string/txtSix" />
+
+    <Button
+        android:id="@+id/btnMinus"
+        android:onClick="buttonMinusClicked"
+        android:text="@string/txtMinus" />
+
+    <Button
+        android:id="@+id/btnSeven"
+        android:onClick="buttonSevenClicked"
+        android:text="@string/txtSeven" />
+
+    <Button
+        android:id="@+id/btnEight"
+        android:onClick="buttonEightClicked"
+        android:text="@string/txtEight" />
+
+    <Button
+        android:id="@+id/btnNine"
+        android:onClick="buttonNineClicked"
+        android:text="@string/txtNine" />
+
+    <Button
+        android:id="@+id/btnPlus"
+        android:layout_gravity="fill"
+        android:layout_rowSpan="3"
+        android:onClick="buttonPlusClicked"
+        android:text="@string/txtPlus" />
+
+    <Button
+        android:id="@+id/btnZero"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:onClick="buttonZeroClicked"
+        android:text="@string/txtZero" />
+
+    <Button
+        android:id="@+id/btnDoubleZero"
+        android:onClick="buttonEraseClicked"
+        android:text="@string/txtErase" />
+
+    <Button
+        android:id="@+id/btnEquals"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:onClick="buttonEqualsClicked"
+        android:text="@string/txtEquals" />
+
+</GridLayout>
